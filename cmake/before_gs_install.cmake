@@ -1,8 +1,7 @@
 file(GLOB_RECURSE method_headers ${CMAKE_MOD_ELUNA_ENGINE_DIR}/LuaEngine/*Methods.h)
 file(GLOB_RECURSE sources_ElunaFile_CPP ${CMAKE_MOD_ELUNA_ENGINE_DIR}/LuaEngine/*.cpp )
 file(GLOB_RECURSE sources_ElunaFile_H ${CMAKE_MOD_ELUNA_ENGINE_DIR}/LuaEngine/*.h)
-
-file(GLOB_RECURSE sources_SOL_HPP ${CMAKE_MOD_ELUNA_ENGINE_DIR}/sol/*.hpp)
+file(GLOB_RECURSE sources_SOL_HPP ${CMAKE_MOD_ELUNA_ENGINE_DIR}/sol2/include/*.hpp)
 
 set(ElunaLuaEngineFiles
   ${ElunaLuaEngineFiles}

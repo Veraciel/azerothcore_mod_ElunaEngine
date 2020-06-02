@@ -2,3 +2,9 @@
 	path = LuaEngine
 	url = https://github.com/ElunaLuaEngine/Eluna.git
 	branch = master
+	
+[submodule "sol2"]
+	path = sol2
+	url = https://github.com/ThePhD/sol2.git
+	branch = develop
+
